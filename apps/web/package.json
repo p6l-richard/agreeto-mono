@@ -14,7 +14,7 @@
     "react-dom": "18.1.0",
     "zod": "^3.18.0",
     "database": "*",
-    "@acme/api": "*",
+    "api": "*",
     "@tanstack/react-query": "^4.7.2",
     "@trpc/server": "10.0.0-proxy-beta.9",
     "@trpc/client": "10.0.0-proxy-beta.9",
