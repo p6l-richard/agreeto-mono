@@ -15,7 +15,7 @@ apps
 packages
  |- api
      |- tRPC v10 router definition
- |- db
+ |- database
      |- typesafe db-calls using Prisma
  ```
 
@@ -28,7 +28,7 @@ To get it running, follow the steps below:
 # Install dependencies
 npm install
 
-# In packages/db/prisma update schema.prisma provider to use sqlite
+# In packages/database/prisma update schema.prisma provider to use sqlite
 - provider = "postgresql"
 + provider = "sqlite"
 
