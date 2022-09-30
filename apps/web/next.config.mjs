@@ -14,7 +14,7 @@ function defineNextConfig(config) {
   return config;
 }
 
-export default withTM(["api", "database"])(
+export default withTM(["@agreeto/api", "@agreeto/database"])(
   defineNextConfig({
     reactStrictMode: true,
     swcMinify: true,

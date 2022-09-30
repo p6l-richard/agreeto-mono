@@ -1,7 +1,7 @@
 // src/utils/trpc.ts
 import { createTRPCNext } from "@trpc/next";
 import { httpBatchLink } from "@trpc/client";
-import type { AppRouter } from "api";
+import type { AppRouter } from "@agreeto/api";
 import { transformer } from "api/transformer";
 
 const getBaseUrl = () => {
